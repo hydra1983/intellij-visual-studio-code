@@ -1,3 +1,4 @@
+// 将键绑定放入此文件中以覆盖默认值
 // Key bindings that are more inline with IntelliJ
 [
   {
@@ -33,12 +34,7 @@
   },
   {
     "key": "alt+cmd+l",
-    "command": "editor.action.format",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "cmd+-",
-    "command": "editor.action.commentLine",
+    "command": "editor.action.formatDocument",
     "when": "editorTextFocus"
   },
   {
@@ -52,7 +48,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+l",
+    "key": "cmd+g",
     "command": "workbench.action.gotoLine",
     "when": "editorTextFocus"
   },
